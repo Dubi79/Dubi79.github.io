@@ -1,0 +1,70 @@
+
+@font-face {
+    font-family: "Roboto-I";
+    src: url(Pages/Roboto/Roboto-Italic.ttf) ; 
+    font-weight: 200;   
+}
+    
+html {
+    font-family: "Rooboto-I";
+    background-color: lightblue;
+}
+
+.html2 {
+    font-family: "Rooboto-I";
+    background-color: lightblue;
+    background-image: url(/Pages/japanese-wave-wallpaper-background-1471183484JkC.jpg);
+}
+
+
+h1 {color : red;
+
+    
+}
+#bioHeader{ color: rgb(84, 37, 211);
+font-family: Roboto-I
+}
+#lorenSkill {color: teal;}
+
+#SkillsHeader {
+    color: violet; font-family: serif;
+}
+.content {
+    color: rgb(12, 48, 15);
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: normal;
+
+}
+.bold {
+    font-weight: bold;
+}
+img {width: 15%;
+    box-shadow: blue 5px 5px 7px;
+    margin: 1%; 
+   
+}
+.img-div {
+    background-color: rgb(211, 239, 248);
+    
+}
+
+#Kaja1 {
+    display: none;
+}
+
+.test-div {
+    border-style: double;
+    box-shadow: 5px 5px 10px maroon;
+    margin: 15px 5px 15px 5px ;
+    max-height: 1500px;
+}
+
+
+#color-div  {
+    display: inline-block;
+    width: 100px ;
+    height: 100px;
+    background-color: rgba(18, 99, 152, 0.2);
+
+}
