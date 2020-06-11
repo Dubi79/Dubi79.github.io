@@ -6,7 +6,7 @@
 }
     
 html {
-    font-family: "Rooboto-I";
+    font-family: 'Times New Roman', Times, serif;
     background-color: lightblue;
 }
 
@@ -60,11 +60,40 @@ img {width: 15%;
     max-height: 1500px;
 }
 
-
-#color-div  {
+ .login-div{
+    padding: 15px;
+    border: solid 3 px ;
+    box-shadow: 0 0 2px;
     display: inline-block;
-    width: 100px ;
-    height: 100px;
     background-color: rgba(18, 99, 152, 0.2);
+ }
+.login-div input { 
+        padding: 3px;
+        display: block;
+        margin-bottom: 7px;
 
+  }
+.login-div input:focus {
+    padding: 5%;
+  }
+
+.submit-btn {
+                background-color: #4CAF50; /* Green */
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;   
+                cursor: pointer;     
+
+}
+
+.login-div button:hover {
+   box-shadow: 0 0 3px black;
+   
+}
+ol li:last-child {
+    text-decoration: underline
 }
