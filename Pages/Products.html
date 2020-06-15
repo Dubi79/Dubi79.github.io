@@ -2,193 +2,485 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <!--
-    <link rel="stylesheet" href="/Pages/style.css"> 
-    -->
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <!--
+    <link rel="stylesheet" href="/Pages/style.css"> -->
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <a class="navbar-brand" href="" style=background-color:darkgreen>Étlap</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <a class="navbar-brand" href="" style=background-color:darkgreen>Rendelési oldal</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
 
-                <li> <a class="nav-link" href="/Pages/Products.html">Products</a> </li>
-                <li> <a class="nav-link" href="/Pages/about.html">About</a> </li>
-                <li> <a class="nav-link" href="/index2.html">Index2</a> </li>
-
-
+        <li> <a class="nav-link" href="/Pages/Orders.html">Orders</a> </li>
+        <li> <a class="nav-link" href="/Pages/about.html">About</a> </li>
+        <li> <a class="nav-link" href="/index2.html">Index2</a> </li>
 
 
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                        Dropdown
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="/Pages/Products.html">Action</a>
-                        <a class="dropdown-item" href="/Pages/about.html">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="/index2.html">Something else here</a>
-                    </div>
-
-                </li>
-                <!--
-                
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li>-->
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
-        </div>
-
-    </nav>
 
 
-    <div id="color-div"></div>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/Pages/Products.html">Action</a>
+            <a class="dropdown-item" href="/Pages/about.html">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="/index2.html">Something else here</a>
+          </div>
 
-    <div class="container">
-        <div class="row">
-           
-            <div class="col">
-                One of three columns
-            </div>
-            <div class="col">
-                One of three columns
-            </div>
-            <div class="col">
-                One of three columns
-            </div>
-        </div>
+        </li>
+        <!--
+            
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>-->
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
     </div>
-  <div class="col" >
-    <h1> Orders </h1>
-    <h3>Fantastis Burger whale</h3>
-    <!-- <ul>
-        <li> <a href="/Pages/Products.html">Products</a> </li>
+
+  </nav>
+
+  <div class="d-flex bd-highlight mb-3">
+    <div class="mr-auto p-2 bd-highlight">
+      <h2>a</h2><p></p>
+      <h2></h2><h2></h2>
+      <h1> Products </h1>
+      <!--
+    <ol>
+        <li> <a href="/Pages/Orders.html">Orders</a> </li>
         <li> <a href="/Pages/about.html">About</a> </li>
         <li> <a href="/index.html">Home</a> </li>
-        <li> <a href="/index2.html">Index2</a> </li>
-    </ul>
--->
-    
-    <form>
-        <fieldset>
-            <legend>Személyes adatok</legend>
-            <div class="form-group">
-                <label for="name1">Name</label>
-                <input id="name1" class="from-cont" type="name" name="name">
-            </div>
+        <li> <a href="/index2.html">Index2</a> </li> -->
+      </ol>
+      <h2> Step of order </h2>
+      <ol>
+        <li>Choos a burger</li>
+        <li>Buy it</li>
+        <li>Give your adress</li>
+        <li>Eat it</li>
+      </ol>
+    </div>
+  </div>
+  <!--
+    <h2>Login</h2>
+    <div class="login-div">
 
-            <div class="form-group">
-                <label for="email1">Email</label>
-                <input id="email1" class="from-cont" type="email" name="email">
-            </div>
-
-            <div class="form-group">
-                <label for="password1">Password</label>
-                <input id="password1" class="from-cont" type="Password" name="Password">
-            </div>
-        </fieldset>
-
-        <fieldset>
-            <legend>Rendelési adatok</legend>
-
-            <h3><span>Extra feltét</span></h3>
-
-            <div>
-                <input type="radio" name="feltetek" id="feltet1" value="1000">
-                <label for="feltet1">Feltét1</label>
-            </div>
-
-            <div>
-                <input type="radio" name="feltetek" id="feltet2" value="1200">
-                <label for="feltet2">Feltét1</label>
-            </div>
-
-            <div>
-                <input type="radio" name="feltetek" id="feltet3" value="1450">
-                <label for="feltet3">Feltét3</label>
-
-            </div>
-            <div>
-                <label for="sauce">Szósz</label>
-                <select name="sauce" id="sauce">
-                    <option value="0">Szósz 1</option>
-                    <option value="100">Szósz 2</option>
-                </select>
-
-            </div>
-            <div>
-                <label for="quantity">Mennyiség</label>
-                <input id quantity type="number" min="1" max="10">
-            </div>
-
-
-
-            <div>
-                <input type="checkbox" name="szamla" id="szamla">
-                <label for="szamla">Áfás számlát kér?</label>
-
-            </div>
-            <div class="form-group">
-                <button class="submit-btn">Fizet</button>
-                <input class="submit-btn" type="button" value="rendelés leadása"> Ár: <span> 1200 </span> Ft<br>
-            </div>
-        </fieldset>
-    </form>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-">
-
-                <div class="alert alert-primary" role="alert">
-                    A simple primary alert—check it out!
-                </div>
-                <div class="alert alert-secondary" role="alert">
-                    A simple secondary alert—check it out!
-                </div>
-                <div class="alert alert-success" role="alert">
-                    A simple success alert—check it out!
-                </div>
-                <div class="alert alert-danger" role="alert">
-                    A simple danger alert—check it out!
-                </div>
-                <div class="alert alert-warning" role="alert">
-                    A simple warning alert—check it out!
-                </div>
-                <div class="alert alert-info" role="alert">
-                    A simple info alert—check it out!
-                </div>
-                <div class="alert alert-light" role="alert">
-                    A simple light alert—check it out!
-                </div>
-                <div class="alert alert-dark" role="alert">
-                    A simple dark alert—check it out!
-                </div>
-            </div>
-
+        <div class="form-group">
+            <label for="name1">Name</label>
+            <input id="name1" class="from-cont" type="name" name="name">
         </div>
-    </div></div>
+        <br>
+        <div class="form-group">
+            <label for="birth1">Birth</label>
+            <input id="birth1" class="from-cont" type="birth" name="birth" required> 
+        </div>
+        <br>
+        <div class="form-group">
+            <label for="email1">Email</label>
+            <input id="email1" class="from-cont" type="email" name="email">
+        </div>
+        <br>    
+        <div class="form-group">
+            <label for="password1">Password</label>
+            <input id="password1" class="from-cont" type="Password" name="Password">
+        </div>
+        <br>
+        <div class="form-group">
+            <button class="submit-btn">Login</button>
+        <br>  
+        </div>
+   -->
+
+  </div>
+
+
+  <div class="container">
+    <div class="row">
+
+      <div class="col-2"> </div>
+
+      <div class="col-8">
+
+        <table style="background-image: url(/Pages/japanese-wave-wallpaper-background-1471183484JkC.jpg);">
+          <caption>Nyitvatartás</caption>
+          <thead>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <th>Napok</th>
+              <th>Nyitás</th>
+              <th>Zárás</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <td>Újházi Tyúkhúsleves</td>
+              <td>Túrós csusza</td>
+              <td>limonádé</td>
+
+            </tr>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <td>Paradicsomleves</td>
+              <td>Zuzapörkölt tarhonyával</td>
+              <td>tonic</td>
+
+            </tr>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <td>Lebbencsleves</td>
+              <td>Császármorzsa</td>
+              <td>szőlőlé</td>
+
+            </tr>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <td>karfiolleves</td>
+              <td>húsos lasagne</td>
+              <td>malátalé</td>
+
+            </tr>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <td>Lebbencsleves</td>
+              <td>Császármorzsa</td>
+              <td>szőlőlé</td>
+
+            </tr>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <td>karfiolleves</td>
+              <td>húsos lasagne</td>
+              <td>malátalé</td>
+
+            </tr>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <td>Lebbencsleves</td>
+              <td>Császármorzsa</td>
+              <td>szőlőlé</td>
+
+            </tr>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <td>karfiolleves</td>
+              <td>húsos lasagne</td>
+              <td>malátalé</td>
+
+            </tr>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <td>Lebbencsleves</td>
+              <td>Császármorzsa</td>
+              <td>szőlőlé</td>
+
+            </tr>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <td>karfiolleves</td>
+              <td>húsos lasagne</td>
+              <td>malátalé</td>
+
+            </tr>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <td>Lebbencsleves</td>
+              <td>Császármorzsa</td>
+              <td>szőlőlé</td>
+
+            </tr>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <td>karfiolleves</td>
+              <td>húsos lasagne</td>
+              <td>malátalé</td>
+
+            </tr>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <td>Lebbencsleves</td>
+              <td>Császármorzsa</td>
+              <td>szőlőlé</td>
+
+            </tr>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <td>karfiolleves</td>
+              <td>húsos lasagne</td>
+              <td>malátalé</td>
+
+            </tr>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <td>Lebbencsleves</td>
+              <td>Császármorzsa</td>
+              <td>szőlőlé</td>
+
+            </tr>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <td>karfiolleves</td>
+              <td>húsos lasagne</td>
+              <td>malátalé</td>
+
+            </tr>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <td>Lebbencsleves</td>
+              <td>Császármorzsa</td>
+              <td>szőlőlé</td>
+
+            </tr>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <td>karfiolleves</td>
+              <td>húsos lasagne</td>
+              <td>malátalé</td>
+
+            </tr>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <td>Lebbencsleves</td>
+              <td>Császármorzsa</td>
+              <td>szőlőlé</td>
+
+            </tr>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <td>karfiolleves</td>
+              <td>húsos lasagne</td>
+              <td>malátalé</td>
+
+            </tr>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <td>Lebbencsleves</td>
+              <td>Császármorzsa</td>
+              <td>szőlőlé</td>
+
+            </tr>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <td>karfiolleves</td>
+              <td>húsos lasagne</td>
+              <td>malátalé</td>
+
+            </tr>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <td>Lebbencsleves</td>
+              <td>Császármorzsa</td>
+              <td>szőlőlé</td>
+
+            </tr>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <td>karfiolleves</td>
+              <td>húsos lasagne</td>
+              <td>malátalé</td>
+
+            </tr>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <td>Lebbencsleves</td>
+              <td>Császármorzsa</td>
+              <td>szőlőlé</td>
+
+            </tr>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <td>karfiolleves</td>
+              <td>húsos lasagne</td>
+              <td>malátalé</td>
+
+            </tr>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <td>Lebbencsleves</td>
+              <td>Császármorzsa</td>
+              <td>szőlőlé</td>
+
+            </tr>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <td>karfiolleves</td>
+              <td>húsos lasagne</td>
+              <td>malátalé</td>
+
+            </tr>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <td>Lebbencsleves</td>
+              <td>Császármorzsa</td>
+              <td>szőlőlé</td>
+
+            </tr>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <td>karfiolleves</td>
+              <td>húsos lasagne</td>
+              <td>malátalé</td>
+
+            </tr>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <td>Lebbencsleves</td>
+              <td>Császármorzsa</td>
+              <td>szőlőlé</td>
+
+            </tr>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <td>karfiolleves</td>
+              <td>húsos lasagne</td>
+              <td>malátalé</td>
+
+            </tr>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <td>Lebbencsleves</td>
+              <td>Császármorzsa</td>
+              <td>szőlőlé</td>
+
+            </tr>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <td>karfiolleves</td>
+              <td>húsos lasagne</td>
+              <td>malátalé</td>
+
+            </tr>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <td>Lebbencsleves</td>
+              <td>Császármorzsa</td>
+              <td>szőlőlé</td>
+
+            </tr>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <td>karfiolleves</td>
+              <td>húsos lasagne</td>
+              <td>malátalé</td>
+
+            </tr>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <td>Lebbencsleves</td>
+              <td>Császármorzsa</td>
+              <td>szőlőlé</td>
+
+            </tr>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <td>karfiolleves</td>
+              <td>húsos lasagne</td>
+              <td>malátalé</td>
+
+            </tr>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <td>Lebbencsleves</td>
+              <td>Császármorzsa</td>
+              <td>szőlőlé</td>
+
+            </tr>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <td>karfiolleves</td>
+              <td>húsos lasagne</td>
+              <td>malátalé</td>
+
+            </tr>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <td>Lebbencsleves</td>
+              <td>Császármorzsa</td>
+              <td>szőlőlé</td>
+
+            </tr>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <td>karfiolleves</td>
+              <td>húsos lasagne</td>
+              <td>malátalé</td>
+
+            </tr>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <td>Lebbencsleves</td>
+              <td>Császármorzsa</td>
+              <td>szőlőlé</td>
+
+            </tr>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <td>karfiolleves</td>
+              <td>húsos lasagne</td>
+              <td>malátalé</td>
+
+            </tr>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <td>Lebbencsleves</td>
+              <td>Császármorzsa</td>
+              <td>szőlőlé</td>
+
+            </tr>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <td>karfiolleves</td>
+              <td>húsos lasagne</td>
+              <td>malátalé</td>
+
+            </tr>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <td>Lebbencsleves</td>
+              <td>Császármorzsa</td>
+              <td>szőlőlé</td>
+
+            </tr>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <td>karfiolleves</td>
+              <td>húsos lasagne</td>
+              <td>malátalé</td>
+
+            </tr>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <td>Lebbencsleves</td>
+              <td>Császármorzsa</td>
+              <td>szőlőlé</td>
+
+            </tr>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <td>karfiolleves</td>
+              <td>húsos lasagne</td>
+              <td>malátalé</td>
+
+            </tr>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <td>Lebbencsleves</td>
+              <td>Császármorzsa</td>
+              <td>szőlőlé</td>
+
+            </tr>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <td>karfiolleves</td>
+              <td>húsos lasagne</td>
+              <td>malátalé</td>
+
+            </tr>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <td>Lebbencsleves</td>
+              <td>Császármorzsa</td>
+              <td>szőlőlé</td>
+
+            </tr>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <td>karfiolleves</td>
+              <td>húsos lasagne</td>
+              <td>malátalé</td>
+
+            </tr>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <td>Lebbencsleves</td>
+              <td>Császármorzsa</td>
+              <td>szőlőlé</td>
+
+            </tr>
+            <tr style=background-color:rgba(153,105,47,0.5)>
+              <td>karfiolleves</td>
+              <td>húsos lasagne</td>
+              <td>malátalé</td>
+
+            </tr>
+
+          </tbody>
+          <tfoot>
+            <tr>
+              <td> &copy; 2019</td>
+            </tr>
+
+
+          </tfoot>
+
+          <div class="col-2"> </div>
+
+        </table>
+
 </body>
 
 </html>
